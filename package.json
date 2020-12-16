@@ -2,8 +2,11 @@
   "name": "js-utils",
   "version": "0.0.1",
   "description": "A lib for JavaScript helpers",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/EduardoLopes/js-utils/issues"
   },
-  "homepage": "https://github.com/EduardoLopes/js-utils#readme"
+  "homepage": "https://github.com/EduardoLopes/js-utils#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
