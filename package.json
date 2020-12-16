@@ -1,0 +1,23 @@
+{
+  "name": "js-utils",
+  "version": "0.0.1",
+  "description": "A lib for JavaScript helpers",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoLopes/js-utils.git"
+  },
+  "keywords": [
+    "helpers",
+    "utils"
+  ],
+  "author": "Cubos <cubos@cubos.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EduardoLopes/js-utils/issues"
+  },
+  "homepage": "https://github.com/EduardoLopes/js-utils#readme"
+}
